@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*vertical style*/
+#vertical .icon-bar {
+  width: 9rem;
+  background-color: #555;
+}
+
+#vertical .icon-bar a {
+  display: block; /*Make the links appear below each other instad of side-by-side*/
+  text-align: center; /*center align text*/
+  padding: 1.6rem; /* add some padding */
+  transition: all 0.3s ease; /*hover effects*/
+  color: white;
+  font-size: 3.6rem;
+}
+
+#vertical .icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+/*vertical style*/
+#horizontal .icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+#horizontal .icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 3.6rem;
+}
+
+#horizontal .icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4caf50;
+}
